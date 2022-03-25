@@ -1,0 +1,30 @@
+<div class="flair"></div>
+<h6 class="ms-3">List Order</h6>
+<table class="table table-borderless">
+    <thead>
+      <tr class="table-header">
+        <th scope="col">No</th>
+        <th scope="col">User Email</th>
+        <th scope="col">Car</th>
+        <th scope="col">Start Rent</th>
+        <th scope="col">Finish Rent</th>
+        <th scope="col">Price</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+    <!-- Sementara menggunakan loop eksplisit karena datanya sama semua -->
+    <% for(let i = 1; i <= 10; i++) {%> 
+      <tr>
+        <td><%= i %> </td>
+        <td><%= orders[0].userEmail %> </td>
+        <td><%= orders[0].car %></td>
+        <td><%= orders[0].startRent %></td>
+        <td><%= orders[0].finishRent %></td>
+        <td><%= orders[0].price %></td>
+        <td><%= orders[0].status %></td>
+      </tr>
+    <%  }%> 
+    </tbody>
+  </table>
+  <%- include("paging") %>

@@ -1,0 +1,27 @@
+
+<body>
+  <%- include("partials/head") %>
+    <div class="login-content">
+      <div class="row">
+        <div class="col login-background">
+        </div>
+        <div class="col-auto login-form">
+          <div class="logo"></div>
+          <h1>Welcome, Admin BCR</h1>
+          <% if(!isValidInput) { %>   
+          <div class="login-error">
+            <p>Masukkan username dan password yang benar. Perhatikan penggunaan huruf kapital.</p>
+          </div>
+          <% } %> 
+          <form action="/login" method="POST">
+            <p>Email</p>
+            <input autocomplete="off" type="text" placeholder="Contoh: johndee@gmail.com" class="form-control py-2"
+              id="email" name="email">
+            <p>Password</p>
+            <input autocomplete="off" type="password" placeholder="6+ karakter" class="form-control py-2" id="password"
+              name="password">
+            <input type="submit" value="Log In" class="btn">
+          </form>
+        </div>
+      </div>
+    </div>

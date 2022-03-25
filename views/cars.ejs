@@ -1,0 +1,29 @@
+
+<%- include("partials/head") %>
+<%- include("partials/body") %>
+<div class="breadcrumb">
+    <h3>Cars</h3>
+    <img src="../public/icon/icon-rightarrow.svg" alt="">
+    <h4>List Car</h4>
+</div>
+<div class="content-header">
+    <h1>List Car</h1>
+    <a href="cars/add">
+        <button type="button" name="" id="" class="btn-add">
+            <img src="../../public/icon/icon-plus.svg" alt="">Add New Car
+        </button>
+    </a>
+</div>
+<div class="d-flex">
+    <button type="button" class="btn btn-outline-primary btn-filter selected">All</button>
+    <button type="button" class="btn btn-outline-primary btn-filter">Small</button>
+    <button type="button" class="btn btn-outline-primary btn-filter">Medium</button>
+    <button type="button" class="btn btn-outline-primary btn-filter">Large</button>
+</div>
+<div class="list-car">
+    <% for(let i = 0; i < 9; i++) {%> 
+    <%- include("partials/card-car") %>
+    <% } %> 
+</div>
+<%- include("partials/fixed-cars") %>
+<%- include("partials/footer") %>

@@ -1,0 +1,31 @@
+<div class="flair"></div>
+<h6 class="ms-3">List Cars</h6>
+<table class="table table-borderless">
+    <thead>
+      <tr class="table-header">
+        <th scope="col">No</th>
+        <th scope="col">Name</th>
+        <th scope="col">Category</th>
+        <th scope="col">Price</th>
+        <th scope="col">Start Rent</th>
+        <th scope="col">Finish Rent</th>
+        <th scope="col">Created At</th>
+        <th scope="col">Updated At</th>
+      </tr>
+    </thead>
+    <tbody>
+    <% cars.forEach((car, index) => { %>
+      <tr>
+        <td><%= index + 1 %> </td>
+        <td><%= car.name %> </td>
+        <td><%= car.category %></td>
+        <td><%= car.price %></td>
+        <td><%= car.startRent %></td>
+        <td><%= car.finishRent %></td>
+        <td><%= car.createdAt %></td>
+        <td><%= car.updatedAt %></td>
+      </tr>
+    <% }) %>
+    </tbody>
+  </table>
+  <%- include("paging") %>

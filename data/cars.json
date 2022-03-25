@@ -1,0 +1,92 @@
+[
+    {
+        "name" : "Name",
+        "category" : "Category",
+        "price": "Price",
+        "startRent": "-",
+        "finishRent" : "-",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at"
+    },
+    {
+        "name" : "Name",
+        "category" : "Category",
+        "price": "Price",
+        "startRent": "Start Rent",
+        "finishRent" : "Finish Rent",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at"
+    },
+    {
+        "name" : "Name",
+        "category" : "Category",
+        "price": "Price",
+        "startRent": "Start Rent",
+        "finishRent" : "Finish Rent",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at"
+    },
+    {
+        "name" : "Name",
+        "category" : "Category",
+        "price": "Price",
+        "startRent": "Start Rent",
+        "finishRent" : "Finish Rent",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at"
+    },
+    {
+        "name" : "Name",
+        "category" : "Category",
+        "price": "Price",
+        "startRent": "-",
+        "finishRent" : "-",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at"
+    },
+    {
+        "name" : "Name",
+        "category" : "Category",
+        "price": "Price",
+        "startRent": "Start Rent",
+        "finishRent" : "Finish Rent",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at"
+    },
+    {
+        "name" : "Name",
+        "category" : "Category",
+        "price": "Price",
+        "startRent": "Start Rent",
+        "finishRent" : "Finish Rent",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at"
+    },
+    {
+        "name" : "Name",
+        "category" : "Category",
+        "price": "Price",
+        "startRent": "Start Rent",
+        "finishRent" : "Finish Rent",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at"
+    },
+    {
+        "name" : "Name",
+        "category" : "Category",
+        "price": "Price",
+        "startRent": "Start Rent",
+        "finishRent" : "Finish Rent",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at"
+    },
+    {
+        "name" : "Name",
+        "category" : "Category",
+        "price": "Price",
+        "startRent": "Start Rent",
+        "finishRent" : "Finish Rent",
+        "createdAt": "Created at",
+        "updatedAt": "Updated at"
+    }
+]

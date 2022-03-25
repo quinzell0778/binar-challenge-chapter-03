@@ -1,0 +1,22 @@
+{
+  "name": "guild_1_book_app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "multer": "^1.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "lint": "eslint --fix --ext .js,.jsx .",
+    "build": "webpack --config webpack.dev.js"
+  }
+}
