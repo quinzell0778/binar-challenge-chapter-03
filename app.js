@@ -8,7 +8,7 @@ const upload = multer();
 const validation = require("./utils/loginValidation");
 const res = require("express/lib/response");
 
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 app.set("view engine", "ejs");
 app.use("/", routes);
