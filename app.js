@@ -30,8 +30,8 @@ app.post('/login', function (req, res) {
     }
 });
 
-// app.get("/cars", (req, res) => {
-//     res.render("cars", {title: "Cars"});
-// });
+app.get("/cars", (req, res) => {
+    res.render("cars", {title: "Cars"});
+});
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
